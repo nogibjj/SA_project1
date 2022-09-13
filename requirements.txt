@@ -1,3 +1,11 @@
-pylint
+click
+ipython
 pytest
+pylink
 black
+dask
+matplotlib
+pandas
+dask[all]
+dask[distributed]
+kaggle

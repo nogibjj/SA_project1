@@ -5,6 +5,7 @@ click
 matplotlib
 pandas
 dask[all]
-dask[distributed]
+dask[distri\
+buted]
 kaggle
 streamlit

@@ -1,11 +1,10 @@
-click
 ipython
 pytest
 pylink
-black
-dask
+click
 matplotlib
 pandas
 dask[all]
 dask[distributed]
 kaggle
+streamlit

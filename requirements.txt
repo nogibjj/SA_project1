@@ -4,8 +4,8 @@ pylink
 click
 matplotlib
 pandas
-dask[all]
-dask[distri\
-buted]
-kaggle
-streamlit
+fastapi
+databricks
+databricks-cli
+databricks-sql-connector
+databricks-connect==10.4.*

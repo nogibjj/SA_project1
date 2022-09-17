@@ -1,6 +1,6 @@
 ipython
 pytest
-pylink
+pylint
 click
 matplotlib
 pandas

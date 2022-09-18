@@ -11,6 +11,4 @@ uvicorn[standard]
 dask
 dask[distributed]
 jupyter
-s3fs
-bokeh
 streamlit

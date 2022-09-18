@@ -11,3 +11,4 @@ dask
 black
 dask[all]
 dask[distributed]
+dask

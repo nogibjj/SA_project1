@@ -6,11 +6,8 @@ databricks-cli
 ipython
 databricks-sql-connector
 databricks-connect==10.4.*
-fastapi
-uvicorn[standard]
-jupyter
-s3fs
-bokeh
-streamlit
-matplotlib
 seaborn
+dask 
+black
+dask[all]
+dask[distributed]

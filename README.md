@@ -3,4 +3,4 @@
 [![Python application test with Github Actions](https://github.com/nogibjj/SA_codespace_practice/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/SA_codespace_practice/actions/workflows/main.yml)
 
 
-image.png
+![alt text][https://github.com/nogibjj/SA_project1/blob/main/dblib/Project 1 Diagram .pdf#L1]

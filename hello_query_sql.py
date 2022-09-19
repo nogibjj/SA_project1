@@ -11,7 +11,7 @@ def cli():
 
 # build a click command
 @cli.command()
-@click.option("--query", default="SELECT * FROM world_population ORDER BY Rank DESC LIMIT 5",
+@click.option("--query", default="SELECT Country FROM world_population ORDER BY Rank DESC LIMIT 5",
     help="SQL query to execute",
 )
 def cli_query(query):

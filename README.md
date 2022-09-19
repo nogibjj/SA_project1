@@ -1,4 +1,4 @@
-# Project 1: Retrieving World Population Data to Visualize Population Growth over the last 30 years
+# Project 1: Retrieving World Population Data to Visualize Population Trends
 
 [![Python application test with Github Actions](https://github.com/nogibjj/SA_codespace_practice/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/SA_codespace_practice/actions/workflows/main.yml)
 

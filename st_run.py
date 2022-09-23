@@ -15,7 +15,7 @@ st.table(dataframe.head())
 
 st.header('Plot a Country\'s Population Over Time')
 st.write("Select a country")
-country = st.selectbox("Country", dataframe['Country'].unique())
+country = st.multiselect("Country", dataframe['Country'].unique())
 st.write("You selected:", country)
 data = pandas_country_pop(country=country)
 dates = ['1970', '1980', '1990', '2000',
@@ -23,7 +23,8 @@ dates = ['1970', '1980', '1990', '2000',
 
 df = pd.DataFrame({
   'date': dates,
-  'values': data.values[0]
+  'countries': data.keys()
+  'values': data.values()
 })
 df = df.rename(columns={'date':'index'}).set_index('index')
 st.line_chart(df)

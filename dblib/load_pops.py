@@ -8,7 +8,7 @@ def load_pop(location="datasets/world_population.csv"):
     return pd.read_csv(location)
 
 
-def pandas_country_pop(location="datasets/world_population.csv", country = 'United States'):
+def pandas_country_pop(location="datasets/world_population.csv", countries = ['United States']):
     """
     Display the population of country selected
 
@@ -16,10 +16,13 @@ def pandas_country_pop(location="datasets/world_population.csv", country = 'Unit
     """
 
     data = pd.read_csv(location)
-    country_pops = data.loc[data['Country'] == country]
     pop_cols = ['1970 Population',
-        '1980 Population', '1990 Population', '2000 Population',
-        '2010 Population', '2015 Population', '2020 Population',
-        '2022 Population']
+            '1980 Population', '1990 Population', '2000 Population',
+            '2010 Population', '2015 Population', '2020 Population',
+            '2022 Population']
+    results = {}
+    for country in countries:
+        country_pops = data.loc[data['Country'] == country]
+        results[country] = country_pops[pop_cols].values.tolist()
 
-    return country_pops[pop_cols]
+    return results

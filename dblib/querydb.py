@@ -2,7 +2,7 @@ import os
 from databricks import sql
 
 
-def querydb(query="SELECT Country FROM world_population ORDER BY Rank DESC LIMIT 5"):
+def querydb(query="SELECT Country FROM world_population LIMIT 5"):
     with sql.connect(
         server_hostname=os.getenv("DATABRICKS_SERVER_HOSTNAME"),
         http_path=os.getenv("DATABRICKS_HTTP_PATH"),

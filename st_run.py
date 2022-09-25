@@ -17,7 +17,7 @@ st.header('Plot a Country\'s Population Over Time')
 st.write("Select a country")
 country = st.selectbox("Country", dataframe['Country'].unique())
 st.write("You selected:", country)
-data = pandas_country_pop(countries=country)
+data = pandas_country_pop(country=country)
 dates = ['1970', '1980', '1990', '2000',
         '2010', '2015', '2020', '2022']
 
